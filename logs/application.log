@@ -1,0 +1,33 @@
+2020-12-11 19:17:17,692 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] initialized
+2020-12-11 19:17:17,694 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2020-12-11 19:17:17,927 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2020-12-11 19:17:18,043 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev) (no global state)
+2020-12-11 19:22:03,363 [INFO] from play.api.db.HikariCPConnectionPool in main - Creating Pool for datasource 'default'
+2020-12-11 19:22:07,581 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.internal-dispatcher-5 - Shutting down connection pool.
+2020-12-11 19:22:33,222 [INFO] from play.api.db.HikariCPConnectionPool in main - Creating Pool for datasource 'default'
+2020-12-11 19:22:36,268 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.internal-dispatcher-3 - Shutting down connection pool.
+2020-12-11 19:28:21,589 [INFO] from play.api.db.HikariCPConnectionPool in main - Creating Pool for datasource 'default'
+2020-12-11 19:28:25,234 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.internal-dispatcher-5 - Shutting down connection pool.
+2020-12-11 19:30:17,851 [INFO] from play.api.db.HikariCPConnectionPool in main - Creating Pool for datasource 'default'
+2020-12-11 19:30:20,954 [ERROR] from controllers.SearchController in application-akka.actor.default-dispatcher-7 - Error in search: No CSRF token was generated for this request! Is the CSRF filter installed?
+2020-12-11 19:30:20,980 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.internal-dispatcher-4 - Shutting down connection pool.
+2020-12-11 19:31:27,042 [INFO] from play.api.db.HikariCPConnectionPool in main - Creating Pool for datasource 'default'
+2020-12-11 19:31:30,414 [ERROR] from controllers.SearchController in application-akka.actor.default-dispatcher-7 - Error in search: No CSRF token was generated for this request! Is the CSRF filter installed?
+2020-12-11 19:31:30,438 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.internal-dispatcher-4 - Shutting down connection pool.
+2020-12-11 19:33:08,223 [INFO] from play.api.db.HikariCPConnectionPool in main - Creating Pool for datasource 'default'
+2020-12-11 19:33:11,197 [ERROR] from controllers.SearchController in application-akka.actor.default-dispatcher-7 - Error in search: No CSRF token was generated for this request! Is the CSRF filter installed?
+2020-12-11 19:33:11,222 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.internal-dispatcher-5 - Shutting down connection pool.
+2020-12-11 19:36:00,902 [INFO] from play.api.db.HikariCPConnectionPool in main - Creating Pool for datasource 'default'
+2020-12-11 19:36:03,838 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.internal-dispatcher-4 - Shutting down connection pool.
+2020-12-11 19:37:12,672 [INFO] from play.api.db.HikariCPConnectionPool in main - Creating Pool for datasource 'default'
+2020-12-11 19:37:16,331 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.internal-dispatcher-2 - Shutting down connection pool.
+2020-12-12 17:01:29,118 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-14 housekeeper - HikariPool-14 - Thread starvation or clock leap detected (housekeeper delta=18h15m8s793ms336µs699ns).

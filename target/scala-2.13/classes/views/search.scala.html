@@ -1,0 +1,24 @@
+
+@(searchForm: Form[SearchData])(implicit request: Http.Request, messages: play.i18n.Messages)
+
+<div class="search_panel center">
+    <h2><b>Whale Search</b></h2>
+    Enter the whale species and/or date that you would like to search for.
+    <br /><hr/>
+<form id="searchForm"action="@routes.SearchController.search()" class="vertically-centered search_fields">
+    @helper.CSRF.formField
+    @{
+        val v = WhaleData.speciesOptions();
+        v.add(0, "");
+        helper.select(searchForm("Species"), _root_.utils.FormUtils.doubleString(v))
+    }
+    @helper.inputText(searchForm("time"), Symbol("_label") -> "Date & Time:")
+    @optionBuildSpecies(species: String) = {
+    <option value="@species" >@species</option>
+    }
+    <input type="submit" value="Search" id="search" formmethod="post">
+
+    <input type="submit" value="Reset" id="reset" formmethod="get">
+</form>
+
+</div>

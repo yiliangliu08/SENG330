@@ -1,0 +1,19 @@
+
+@(observation: Observation, whaleForm: Form[WhaleData])(implicit request: Http.Request, messages: play.i18n.Messages)
+
+@section(observation: Observation)= {
+    <section id="obsDetail">
+        <section class="obsInfo">
+
+            @views.html.observationTable(Collections.singletonList(observation))
+
+        </section>
+
+        <section class="card-group">
+            @observation.getWhales.map(x => views.html.panel(observation, x))
+            @views.html.whaleForm(observation, whaleForm)
+        </section>
+    </section>
+}
+
+@htmlHeader(section(observation))
